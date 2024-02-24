@@ -17,7 +17,7 @@ random.shuffle(PasswordList)
 PasswordNew = ''.join(PasswordList)
 
 # create the Index Length of Character of Password
-IndexLength = int(len(PasswordNew))-1
+IndexLength = int(len(PasswordNew))-1;print("Password Generator v.2")
 
 # ask the user the amount of characters the password will be
 Amount = int(input("Length of Password (max:94chars): "))
